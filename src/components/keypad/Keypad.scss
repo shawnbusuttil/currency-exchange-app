@@ -1,0 +1,22 @@
+.keypad {
+	width: 100%;
+
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	
+	color: #000;
+	background-color: white;
+
+	&-button {
+		width: 33.3vw;
+		height: 25%;
+
+		font-size: 2rem;
+		border: 1px solid black;
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
